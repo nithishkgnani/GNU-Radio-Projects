@@ -1,6 +1,6 @@
 # GNU-Radio-Projects
 Projects using GNU Radio with SDRs like USRP X310, USRP B210, LimeSDR USB, LimeSDR Mini and ADALM Pluto SDR.  
-I mainly use GNU Radio 3.7 version and hence the instructions would be for the same version.
+GNU Radio 3.7 version was used for the projects and hence the instructions would be for the same version.
 
 ## GNU Radio
 GNU Radio is a software development toolkit to work with software-defined radios like USRP, Lime SDR, Pluto SDR etc.  
