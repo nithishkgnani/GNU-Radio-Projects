@@ -13,15 +13,15 @@ To access the 3.7 released version (legacy), add the gnuradio/gnuradio-releases-
 `sudo add-apt-repository ppa:gnuradio/gnuradio-releases-3.7`  
 _Note:_ For a different version, change the version number
 
-Then, update the apt sources, and install gnuradio  
+* Update the apt sources    
 `sudo apt-get update`  
+* Install gnuradio
 `sudo apt install gnuradio`  
 _Note:_ This includes USRP (UHD) hardware options.
-
-Launch GNU Radio Companion using  
+* Launch GNU Radio Companion using    
 `gnuradio-companion`
 
-Install some dependencies for installing other modules:
+Install some dependencies for installing other modules:  
 `sudo apt install git cmake g++ libboost-all-dev libgmp-dev swig python3-numpy python3-mako python3-sphinx python3-lxml doxygen libfftw3-dev libsdl1.2-dev libgsl-dev libqwt-qt5-dev libqt5opengl5-dev python3-pyqt5 liblog4cpp5-dev libzmq3-dev python3-yaml python3-click python3-click-plugins python3-zmq python3-scipy python3-pip python3-gi-cairo`
 
 
