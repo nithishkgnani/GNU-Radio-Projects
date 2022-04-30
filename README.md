@@ -52,14 +52,15 @@ To build and install for GNURadio3.7 enter the following commands in terminal:
 ### Installing Pluto SDR
  To use ADALM Pluto SDR which is an IIO based device within GNU Radio, the support is currently provided in an out-of-tree (OOT) module called gr-iio.  
 * Download and build libiio. cd to home or any directory of your choice. Then enter the following commands:  
-`sudo apt install libxml2 libxml2-dev bison flex cmake git libaio-dev libboost-all-dev libusb-1.0-0-dev libavahi-common-dev libavahi-client-dev`    
     ```
+    sudo apt install libxml2 libxml2-dev bison flex cmake git libaio-dev libboost-all-dev libusb-1.0-0-dev libavahi-common-dev libavahi-client-dev
     git clone https://github.com/analogdevicesinc/libiio.git
     cd libiio
     cmake .
     make 
     sudo make install
     cd ..
+  
     ```
 * Download and build libad9361-iio  
     ```
@@ -69,6 +70,7 @@ To build and install for GNURadio3.7 enter the following commands in terminal:
     make 
     sudo make install
     cd ..
+  
     ```
 * Finally install gr-iio whih includes Pluto SDR
     ```
@@ -80,3 +82,6 @@ To build and install for GNURadio3.7 enter the following commands in terminal:
     cd ..
     sudo ldconfig
     ```
+### Uninstalling GNU Radio
+To uninstall GNU Radio enter the following command:  
+`sudo apt-get remove gnuradio`
