@@ -82,6 +82,10 @@ To build and install for GNURadio3.7 enter the following commands in terminal:
     cd ..
     sudo ldconfig
     ```
+    
+The GNU Radio Companion with LimeSuite and PlutoSDR support installed should look like this:  
+<img src="Media/GNU_radio_companion_sample.png" width="auto">  
+
 ### Uninstalling GNU Radio
 To uninstall GNU Radio enter the following command:  
 `sudo apt-get remove gnuradio`
